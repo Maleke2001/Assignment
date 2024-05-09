@@ -1,0 +1,36 @@
+.survey-form {
+    margin: 20px;
+  }
+  
+  .food-options {
+    margin-bottom: 20px;
+  }
+  
+  .food-options label {
+    display: block;
+  }
+  
+  .food-options input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th.header {
+    background-color: #f2f2f2; /* Light gray background color for header */
+    padding: 10px; /* Add padding to the header cells */
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px; /* Add padding to all cells */
+  }
+  
+  td:first-child {
+    font-weight: bold; /* Bold font for the first column */
+  }
+  

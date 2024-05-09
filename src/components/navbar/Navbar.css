@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin: 0;
+    background-color: var(--secondary-color); /* Adjust background color as needed */
+    color: #fff; /* Adjust text color as needed */
+  }
+  
+
+  
+  .navbar-links a {
+    margin-left: 60px; /* Adjust link spacing as needed */
+    color: #fff; /* Adjust link color as needed */
+    text-decoration: none; /* Remove underline */
+    padding: 0 30px;
+  }
+  
