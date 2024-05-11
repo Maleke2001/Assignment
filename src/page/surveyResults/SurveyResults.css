@@ -1,0 +1,14 @@
+.number-of-surveys{
+    display: flex;
+    justify-content: space-between;
+}
+.results-container h2{
+    text-align: center;
+}
+.result-food-container{
+    padding: 0 150px;
+}
+
+.food-container{
+    margin: 50px 0;
+}

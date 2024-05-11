@@ -1,8 +1,10 @@
 .form-container {
     max-width: 600px; /* Adjust maximum width as needed */
-    margin: 0 auto; /* Center the form horizontally */
+    margin:20px; /* Center the form horizontally */
   }
   
+
+
   .input-group {
     display: flex;
     align-items: center;

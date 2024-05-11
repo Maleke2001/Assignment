@@ -1,20 +1,44 @@
 .survey-form {
-    margin: 20px;
-  }
-  
-  .food-options {
-    margin-bottom: 20px;
-  }
-  
-  .food-options label {
-    display: block;
-  }
+  margin: 20px;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack children vertically */
+}
+.survey {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align items vertically */
+}
+
+.survey h3 {
+  margin-right: 20px; /* Add some space between h3 and food options */
+}
+
+.food-options {
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap; /* Allow children to wrap */
+}
+
+.food-options label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.food-options label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.heading{
+  margin-top: 50px;
+}
+
   
   .food-options input[type="checkbox"] {
     margin-right: 5px;
   }
   
   table {
+    margin-top: 10px;
     border-collapse: collapse;
     width: 100%;
   }
@@ -32,5 +56,13 @@
   
   td:first-child {
     font-weight: bold; /* Bold font for the first column */
+  }
+
+  .btn {
+    background-color: var( --secondary-color);
+    margin: 28px auto 0; /* Center horizontally and add some top margin */
+    padding: 10px 30px;
+    border: none;
+    color: white;
   }
   

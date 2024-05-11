@@ -9,10 +9,20 @@
   
 
   
-  .navbar-links a {
+  .navbar-links .link {
     margin-left: 60px; /* Adjust link spacing as needed */
     color: #fff; /* Adjust link color as needed */
     text-decoration: none; /* Remove underline */
     padding: 0 30px;
+    font-weight: bolder;
   }
+  .link {
+    text-decoration: none; /* Remove default underline */
+    color: black; /* Change link color */
+  }
+  
+  .active-link {
+    text-decoration: underline; /* Underline when active */
+  }
+  
   
