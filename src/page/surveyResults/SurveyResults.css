@@ -1,6 +1,7 @@
 .number-of-surveys{
     display: flex;
     justify-content: space-between;
+    
 }
 .results-container h2{
     text-align: center;
@@ -11,4 +12,7 @@
 
 .food-container{
     margin: 50px 0;
+}
+.results{
+    font-weight: bold;
 }

@@ -23,7 +23,8 @@ const PersonalDetails = () => {
   return (
     <div className="form-container">
       <h3>Personal details:</h3>
-      <div className="input-group">
+      <div className='input-container'>
+        <div className="input-group">
         <label htmlFor="fullName">Full Name:</label>
         <input type="text" id="fullName" name="fullName" value={formData.fullName} onChange={handleChange} onBlur={handleBlur} />
       </div>
@@ -38,7 +39,9 @@ const PersonalDetails = () => {
       <div className="input-group">
         <label htmlFor="contactNumber">Contact Number:</label>
         <input type="tel" id="contactNumber" name="contactNumber" value={formData.contactNumber} onChange={handleChange} onBlur={handleBlur} />
+        </div>
       </div>
+      
     </div>
   );
 };

@@ -9,12 +9,14 @@
 }
 
 .survey h3 {
-  margin-right: 20px; /* Add some space between h3 and food options */
+  margin-right:20px; /* Add some space between h3 and food options */
+  margin-top: 30px;
 }
 
 .food-options {
   display: flex; /* Use flexbox */
   flex-wrap: wrap; /* Allow children to wrap */
+    margin-top: 20px
 }
 
 .food-options label {
@@ -29,7 +31,7 @@
 }
 
 .heading{
-  margin-top: 50px;
+ margin-bottom: 50px;
 }
 
   
@@ -40,29 +42,40 @@
   table {
     margin-top: 10px;
     border-collapse: collapse;
-    width: 100%;
+    width: 90%;
+  
   }
   
   th.header {
-    background-color: #f2f2f2; /* Light gray background color for header */
-    padding: 10px; /* Add padding to the header cells */
+    background-color: var(--tertiary-color); /* Light gray background color for header */
+  
+    border: none;
+
   }
   
   td, th {
     border: 1px solid #dddddd;
-    text-align: left;
     padding: 8px; /* Add padding to all cells */
+    border: none; 
   }
-  
+.rate-level{
+      text-align: center;
+  }
+   
   td:first-child {
     font-weight: bold; /* Bold font for the first column */
+    
   }
 
   .btn {
+    display: flex;
+    justify-content: center;
     background-color: var( --secondary-color);
     margin: 28px auto 0; /* Center horizontally and add some top margin */
-    padding: 10px 30px;
+    padding: 10px 40px;
     border: none;
     color: white;
+    font-size: 15px;
+    font-weight: bold;
   }
   

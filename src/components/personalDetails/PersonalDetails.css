@@ -1,14 +1,15 @@
 .form-container {
     max-width: 600px; /* Adjust maximum width as needed */
-    margin:20px; /* Center the form horizontally */
+    margin:50px 20px; /* Center the form horizontally */
   }
+ .input-container{
+  margin: 40px 0px;
+ }
   
-
-
   .input-group {
     display: flex;
     align-items: center;
-    margin-bottom: 20px; /* Adjust spacing between input groups as needed */
+    margin-bottom:  20px; /* Adjust spacing between input groups as needed */
   }
   
   .input-group label {
