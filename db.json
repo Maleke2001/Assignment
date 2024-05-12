@@ -1,5 +1,38 @@
 {
   "surveyData": [
-   
+    {
+      "id": "4e26",
+      "fullName": "Motshabi Maleke",
+      "email": "motshabielizabeth1@gmail.com",
+      "dob": "2014-01-14",
+      "contactNumber": "1236548896266",
+      "ratings": {
+        "watchMovies": 1,
+        "eatOut": 1,
+        "watchTV": 1,
+        "listenToRadio": 1
+      },
+      "food": [
+        "Pizza",
+        "Pasta"
+      ]
+    },
+    {
+      "id": "d8e2",
+      "fullName": "Lebo Maleke",
+      "email": "email@gmail.com",
+      "dob": "1998-01-21",
+      "contactNumber": "012355444568",
+      "food": [
+        "Pasta",
+        "Pap and Wors"
+      ],
+      "ratings": {
+        "eatOut": 1,
+        "watchMovies": 2,
+        "watchTV": 2,
+        "listenToRadio": 2
+      }
+    }
   ]
 }

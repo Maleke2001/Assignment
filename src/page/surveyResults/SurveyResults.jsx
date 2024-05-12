@@ -71,11 +71,19 @@ const SurveyResults = () => {
 				setTvLovers(tvLoversCount);
 
 				const eatOutRatings = data
-					.filter((entry) => entry.ratings)
+					.filter(
+						(entry) => entry.ratings && entry.ratings.eatOut !== undefined
+					)
 					.map((entry) => entry.ratings.eatOut);
-				const averageRating =
-					eatOutRatings.reduce((acc, curr) => acc + curr, 0) / data.length;
-				setEatOutAverageRating(averageRating.toFixed(1));
+
+				if (eatOutRatings.length > 0) {
+					const averageRating =
+						eatOutRatings.reduce((acc, curr) => acc + curr, 0) /
+						eatOutRatings.length;
+					setEatOutAverageRating(averageRating);
+				} else {
+					setEatOutAverageRating(0);
+				}
 			})
 			.catch((error) => {
 				console.error("Error:", error);
